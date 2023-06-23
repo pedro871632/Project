@@ -9,8 +9,3 @@ def home(request):
     })
     
 
-def sobre(request):
-    return render(request, "temporary/index.html")
-
-def contato(request):
-    return HttpResponse("Estou em contatos !")
